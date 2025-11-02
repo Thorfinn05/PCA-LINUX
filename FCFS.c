@@ -19,7 +19,7 @@ int main(){
 		wt[i] = wt[i-1] + bt[i-1];
 	}
 	int tat[n];
-	for(int i=1; i<n; i++){
+	for(int i=0; i<n; i++){
 		tat[i] = wt[i] + bt[i];
 	}
 	printf("PID  BT  WT  TAT\n");
